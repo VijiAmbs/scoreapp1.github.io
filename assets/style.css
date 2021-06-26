@@ -33,12 +33,12 @@ body {
 	grid-template-rows: 1fr; 
 	@media only screen and (max-width: 166px)
 }
-
-.img
-	{max-width:10 px;
+.box img{
+max-width:10 px;
 	max-height: 10 px;
 	grid-template-columns: 2;
 }
+
 
 img{
 	justify-self: center;
