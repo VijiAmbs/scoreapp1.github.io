@@ -28,6 +28,11 @@ body {
 	@media only screen and (max-width: 166px)
 }
 
+../assets/images/bluejays_logo.png{
+	width: 5px;
+	height: 5px;
+	grid-template-columns: 2;
+}
 
 img{
 	justify-self: center;
