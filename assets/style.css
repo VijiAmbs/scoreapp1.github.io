@@ -18,12 +18,10 @@ html {
 background-color: blue;
 text-color: white;
 color: white;
+outline-color: blue;
 }
 
 #box {
-width:5px;
-height:2px;
-border:1px 
 background-color: grey;
 padding: 1px 1px 1px 1px;
 }
