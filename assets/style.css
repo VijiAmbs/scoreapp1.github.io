@@ -2,6 +2,26 @@ html {
 	margin: 0;
 }
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: darkblue;
+}
+
+.previous {
+  background-color: #000000
+  color: blue;
+}
+
+.round {
+  border-radius: 50%;
+}
+
 body {
 	display: grid;
 	width: 100vw;
