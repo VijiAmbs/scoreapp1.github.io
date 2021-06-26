@@ -14,13 +14,15 @@ html {
 	padding: 1px;
 	grid-template-columns: 1/9;
 	grid-template-rows: 1/9;
-	border-radius: 25px;
+	border-radius: 5px;
 }
 
-.button1 {border-radius: 25px;
+.button1 {border-radius: 5px;
 background-color: blue;
 text-color: white;
 color: white;
+grid-template-columns: 2/9;
+grid-template-rows: 1/9;
 }
 
 .box {
