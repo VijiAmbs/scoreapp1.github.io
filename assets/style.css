@@ -25,14 +25,14 @@ grid-template-columns: 2/9;
 grid-template-rows: 1/9;
 }
 
-.box {
+#box {
 width:50px;
 height:20px;
 border:1px 
 background-color: #242424;
 }
 
-.box img{
+#box img{
 width:10 px;
 height: 10 px;
 	grid-template-columns: 2/9;
