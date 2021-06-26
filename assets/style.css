@@ -8,7 +8,7 @@ body {
 	height: 100vh;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr; 
-	background-color: black;
+	@media only screen and (max-width: 166px)
 }
 
 
@@ -22,7 +22,7 @@ img{
 #watchGrid{
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: minmax(50px, auto);
+	grid-template-rows: minmax(20px, auto);
 	justify-self: center;
 	align-self: center;
 	color: white;
@@ -31,15 +31,15 @@ img{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: white;
+	background-color: black;
+	width: 10vw;
+	height: 25vh;
 	border-radius: 10px;
-	
-}
+	overflow-y: scroll;
+	margin-left: auto;
+	margin-right: auto;
+    width:180px;
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
 }
 
 #time{
@@ -57,3 +57,29 @@ img{
 	grid-column: 1/9;
 	grid-row: 1/9;
 	}
+
+	#game1{
+		grid-column: 1/9;
+	grid-row: 2 / span 2;
+}
+	#Today{
+margin: 0px;
+/*padding-top: 10px;*/
+/*padding-left: 10px;*/
+	}
+
+	#game2{
+grid-column: 1/9;
+	grid-row: 8/9;
+	}
+	#Fri{
+margin: 0px;
+}
+
+#game3{
+grid-column: 1/9;
+	grid-row: 9/9;
+	}
+#Sat{
+	margin: 0px;
+}
