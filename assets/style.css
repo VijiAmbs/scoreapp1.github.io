@@ -16,13 +16,22 @@ html {
 	grid-template-rows: 1/9;
 	border-radius: 25px;
 }
-.button1 {border-radius: 25px;}
 
-.MainGame{
+.button1 {border-radius: 25px;
+background-color: blue;
+text-color: white;}
+
+.box {
 width:50px;
 height:20px;
 border:1px 
-background-color:  #242424;
+background-color: #242424;
+}
+
+.box img{
+width:10 px;
+height: 10 px;
+	grid-template-columns: 2/9;
 }
 
 body {
@@ -34,11 +43,7 @@ body {
 	@media only screen and max-width: 166px
 }
 
-.box img{
-width:10 px;
-height: 10 px;
-	grid-template-columns: 2/9;
-}
+
 
 
 img{
