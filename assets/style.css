@@ -28,9 +28,9 @@ body {
 	@media only screen and (max-width: 166px)
 }
 
-../assets/images/bluejays_logo.png{
-	width: 5px;
-	height: 5px;
+.img
+	{max-width:10 px;
+	max-height: 10 px;
 	grid-template-columns: 2;
 }
 
