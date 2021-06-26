@@ -2,23 +2,14 @@ html {
 	margin: 0;
 }
 
-.button1 {
-	background-color: blue;
-	border: none;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 12px;
-	margin: 2px 2px;
-	padding: 1px;
-}
 
-.button1 {border-radius: 75%;
+.button1 {border-radius: 50%;
+height: 20px;
+width: 20px;
 background-color: blue;
 text-color: white;
 color: white;
-outline-color: blue;
+border:  1px blue;
 }
 
 #box {
