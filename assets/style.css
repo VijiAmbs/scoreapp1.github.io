@@ -14,10 +14,8 @@ html {
 	padding: 1px;
 	grid-template-columns: 1;
 	grid-template-rows: 1;
+	border-radius: 5px;
 }
-
-.previous-round 
-{border-radius:75%}
 
 body {
 	display: grid;
