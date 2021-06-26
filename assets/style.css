@@ -3,7 +3,7 @@ html {
 }
 
 .button{
-	background-color: darkblue;
+	background-color: blue;
 	border: none;
 	text-color: white;
 	text-align: center;
@@ -19,7 +19,9 @@ html {
 
 .button1 {border-radius: 25px;
 background-color: blue;
-text-color: white;}
+text-color: white;
+color: white;
+}
 
 .box {
 width:50px;
