@@ -11,7 +11,7 @@ html {
 	display: inline-block;
 	font-size: 12px;
 	margin: 4px 2px;
-	padding: 0px;
+	padding: 1px;
 	grid-template-columns: 1;
 	grid-template-rows: 1;
 }
