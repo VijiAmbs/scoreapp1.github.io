@@ -10,18 +10,14 @@ html {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 12px;
-	margin: 4px 2px;
-	padding-left: 2px;
-	grid-template-columns: 2/9;
-	grid-template-rows: 1/9;
+	margin: 2px 2px;
+	padding: 1px;
 }
 
 .button1 {border-radius: 75%;
 background-color: blue;
 text-color: white;
 color: white;
-grid-template-columns: 2/9;
-grid-template-rows: 1/9;
 }
 
 #box {
