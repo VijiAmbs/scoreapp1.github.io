@@ -31,12 +31,13 @@ body {
 	height: 100vh;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr; 
-	@media only screen and (max-width: 166px)
+	@media only screen and max-width: 166px
 }
+
 .box img{
-max-width:10 px;
-	max-height: 10 px;
-	grid-template-columns: 2;
+width:10 px;
+height: 10 px;
+	grid-template-columns: 2/9;
 }
 
 
