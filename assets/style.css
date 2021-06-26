@@ -12,12 +12,11 @@ html {
 	font-size: 12px;
 	margin: 4px 2px;
 	padding: 1px;
-	grid-template-columns: 1/9;
+	grid-template-columns: 2/9;
 	grid-template-rows: 1/9;
-	border-radius:5%;
 }
 
-.button1 {border-radius: 5%;
+.button1 {border-radius: 100%;
 background-color: blue;
 text-color: white;
 color: white;
