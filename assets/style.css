@@ -17,7 +17,9 @@ background-color: darkgrey;
 color: white;
 padding: 1px 1px 1px 1px;
 align-content: justify;
-
+content-fit: auto;
+width: 162px;
+height: 58px;
 }
 
 
