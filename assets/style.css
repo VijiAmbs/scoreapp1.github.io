@@ -19,10 +19,8 @@ padding: 1px 1px 1px 1px;
 align: left;
 width: 162px;
 height: 58px;
-}
-
-#box .img{
-	align-self: auto;
+content-fit: auto;
+@media only screen and max-width: 166px
 }
 
 
