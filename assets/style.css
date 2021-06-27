@@ -13,15 +13,14 @@ border:  1px blue;
 }
 
 #box {
-background-color: grey;
+background-color: darkgrey;
+color: white;
 padding: 1px 1px 1px 1px;
+align-content: justify;
+
 }
 
-#box img{
-width:10 px;
-height: 10 px;
-	grid-template-columns: 2/9;
-}
+
 
 body {
 	display: grid;
