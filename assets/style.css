@@ -13,13 +13,16 @@ border:  1px blue;
 }
 
 #box {
-background-color: darkgrey;
+background-color: darkgray;
 color: white;
 padding: 1px 1px 1px 1px;
-align-content: justify;
-content-fit: auto;
+align: left;
 width: 162px;
 height: 58px;
+}
+
+#box .img{
+	align-self: auto;
 }
 
 
