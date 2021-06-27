@@ -13,14 +13,17 @@ border:  1px blue;
 }
 
 #box {
-background-color: darkgray;
+background-color: darkgrey;
 color: white;
 padding: 1px 1px 1px 1px;
-align: left;
+align-content: justify;
+content-fit: auto;
 width: 162px;
 height: 58px;
-content-fit: auto;
-@media only screen and max-width: 166px
+}
+
+#box .img{
+	align-self: auto;
 }
 
 
