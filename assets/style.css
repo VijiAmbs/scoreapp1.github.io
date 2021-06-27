@@ -12,20 +12,42 @@ color: white;
 border:  1px blue;
 }
 
+
 #box {
 background-color: darkgrey;
 color: white;
-padding: 1px 1px 1px 1px;
 align-content: justify;
 content-fit: auto;
 width: 162px;
 height: 58px;
+grid-column: 1/9;
+	grid-row: 2/9 span 2;
+}
 }
 
 #box .img{
 	align-self: auto;
 }
 
+#box2 {
+content-fit: auto;
+	grid-column: 1/9;
+	grid-row: 3/9 span 5;
+}
+
+}
+#box2 .button2{ border-radius:10%;
+height: 50px;
+width: 162 px;
+background-color: blue;
+text-color: white;
+color: white;
+border:  1px blue;
+display: inline-block;
+grid-column: 3/9;
+grid-row: 4/9 span 2;
+padding: 1px 1px 1px 1px;
+}
 
 
 body {
