@@ -167,11 +167,13 @@ grid-column: 1/9;
 	}
 
 	#game5{
+		background-color: darkgrey;
 grid-column: 1/9;
 	grid-row:65 span 47;
 	position: relative;
 	}
-	#game5{
+	#game6{
+		background-color: darkgrey;
 grid-column: 1/9;
 	grid-row:75 span 57;
 	position: relative;
