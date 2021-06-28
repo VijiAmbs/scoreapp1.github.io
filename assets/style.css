@@ -2,7 +2,28 @@ html {
 	margin: 0;
 }
 
+#watchGrid{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: minmax(20px, auto);
+	justify-self: center;
+	align-self: center;
+	color: white;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -40%);
+	background-color: black;
+	width: 10vw;
+	height: 25vh;
+	border-radius: 10px;
+	overflow-y: scroll;
+	margin-left: auto;
+	margin-right: auto;
+    width:180px;
 
+}
 .button1 {border-radius: 50%;
 height: 20px;
 width: 20px;
@@ -57,21 +78,15 @@ content-fit: auto;
 	/*margin-top: 20px;*/
 }
 
-}
-#prop .bet{border-radius: 10%;
-background-color: blue;
-color: white;
-border:  0px blue;
-display: inline-block;
-justify-content: center;
-	align-items:  center;
-display: flex
-}
 
-#prop {
+
+.bet{
+	border-radius: 10%;
 	background-color: blue;
 	text-color: white;
-	justify-content: center;
+	display: flex;
+justify-content: center;
+	align-items:  center;
 	align-items:  center;
 	grid-column: 1/9;
 	grid-row: 25/9;
@@ -96,28 +111,7 @@ img{
 
 }
 
-#watchGrid{
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: minmax(20px, auto);
-	justify-self: center;
-	align-self: center;
-	color: white;
-	z-index: 2;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: black;
-	width: 10vw;
-	height: 25vh;
-	border-radius: 10px;
-	overflow-y: scroll;
-	margin-left: auto;
-	margin-right: auto;
-    width:180px;
 
-}
 
 #time{
 	justify-self: center;
